@@ -6,7 +6,7 @@
 
 
 
-This project was created to practice \*\*SQL\*\*, \*\*database validation\*\*, and \*\*QA testing techniques\*\* using a simulated e-commerce application.
+This project was created to practice SQL, database validation, and QA testing techniques using a simulated e-commerce application.
 
 
 
@@ -22,15 +22,15 @@ The project focuses on how a QA Engineer can validate data stored in a database 
 
 
 
-\* Practice SQL queries used in QA testing
+\- Practice SQL queries used in QA testing
 
-\* Learn database validation techniques
+\- Learn database validation techniques
 
-\* Simulate real-world testing scenarios
+\- Simulate real-world testing scenarios
 
-\* Verify data integrity between related tables
+\- Verify data integrity between related tables
 
-\* Build a portfolio project for QA Automation and Software Testing roles
+\- Build a portfolio project for QA Automation and Software Testing roles
 
 
 
@@ -54,19 +54,19 @@ Stores customer information.
 
 
 
-| Column            | Description            |
+| Column | Description |
 
-| ----------------- | ---------------------- |
+|---------|-------------|
 
-| user\_id           | Unique user identifier |
+| user\_id | Unique user identifier |
 
-| first\_name        | Customer first name    |
+| first\_name | Customer first name |
 
-| last\_name         | Customer last name     |
+| last\_name | Customer last name |
 
-| email             | Customer email         |
+| email | Customer email |
 
-| registration\_date | Account creation date  |
+| registration\_date | Account creation date |
 
 
 
@@ -78,17 +78,17 @@ Stores product information.
 
 
 
-| Column         | Description               |
+| Column | Description |
 
-| -------------- | ------------------------- |
+|---------|-------------|
 
-| product\_id     | Unique product identifier |
+| product\_id | Unique product identifier |
 
-| product\_name   | Product name              |
+| product\_name | Product name |
 
-| price          | Product price             |
+| price | Product price |
 
-| stock\_quantity | Available stock           |
+| stock\_quantity | Available stock |
 
 
 
@@ -100,17 +100,17 @@ Stores customer orders.
 
 
 
-| Column       | Description                   |
+| Column | Description |
 
-| ------------ | ----------------------------- |
+|---------|-------------|
 
-| order\_id     | Unique order identifier       |
+| order\_id | Unique order identifier |
 
-| user\_id      | Customer who placed the order |
+| user\_id | Customer who placed the order |
 
-| order\_date   | Date of order                 |
+| order\_date | Date of order |
 
-| order\_status | Order status                  |
+| order\_status | Order status |
 
 
 
@@ -122,19 +122,19 @@ Stores products associated with each order.
 
 
 
-| Column        | Description                    |
+| Column | Description |
 
-| ------------- | ------------------------------ |
+|---------|-------------|
 
-| order\_item\_id | Unique order item identifier   |
+| order\_item\_id | Unique order item identifier |
 
-| order\_id      | Related order                  |
+| order\_id | Related order |
 
-| product\_id    | Ordered product                |
+| product\_id | Ordered product |
 
-| quantity      | Quantity ordered               |
+| quantity | Quantity ordered |
 
-| item\_price    | Product price at purchase time |
+| item\_price | Product price at purchase time |
 
 
 
@@ -146,19 +146,19 @@ Stores payment information.
 
 
 
-| Column         | Description               |
+| Column | Description |
 
-| -------------- | ------------------------- |
+|---------|-------------|
 
-| payment\_id     | Unique payment identifier |
+| payment\_id | Unique payment identifier |
 
-| order\_id       | Related order             |
+| order\_id | Related order |
 
-| payment\_date   | Payment date              |
+| payment\_date | Payment date |
 
-| amount         | Payment amount            |
+| amount | Payment amount |
 
-| payment\_status | Payment status            |
+| payment\_status | Payment status |
 
 
 
@@ -174,19 +174,19 @@ This project will include validation scenarios such as:
 
 
 
-\* Verify user creation
+\- Verify user creation
 
-\* Verify order creation
+\- Verify order creation
 
-\* Verify payment status
+\- Verify payment status
 
-\* Verify order totals
+\- Verify order totals
 
-\* Verify stock updates
+\- Verify stock updates
 
-\* Verify completed and failed payments
+\- Verify completed and failed payments
 
-\* Verify data consistency across tables
+\- Verify data consistency across tables
 
 
 
@@ -198,25 +198,25 @@ This project will include validation scenarios such as:
 
 
 
-\* CREATE TABLE
+\- CREATE TABLE
 
-\* INSERT INTO
+\- INSERT INTO
 
-\* SELECT
+\- SELECT
 
-\* WHERE
+\- WHERE
 
-\* ORDER BY
+\- ORDER BY
 
-\* COUNT
+\- COUNT
 
-\* SUM
+\- SUM
 
-\* GROUP BY
+\- GROUP BY
 
-\* INNER JOIN
+\- INNER JOIN
 
-\* LEFT JOIN
+\- LEFT JOIN
 
 
 
@@ -228,13 +228,13 @@ This project will include validation scenarios such as:
 
 
 
-\* SQLite
+\- SQLite
 
-\* DB Browser for SQLite
+\- DB Browser for SQLite
 
-\* Git
+\- Git
 
-\* GitHub
+\- GitHub
 
 
 
@@ -254,21 +254,21 @@ Current Progress:
 
 
 
-\* \[x] Repository Created
+\- \[x] Repository Created
 
-\* \[x] Database Schema Created
+\- \[x] Database Schema Created
 
-\* \[x] Sample Data Started
+\- \[x] Sample Data Started
 
-\* \[ ] SQL Validation Queries
+\- \[ ] SQL Validation Queries
 
-\* \[ ] JOIN Queries
+\- \[ ] JOIN Queries
 
-\* \[ ] Reporting Queries
+\- \[ ] Reporting Queries
 
-\* \[ ] QA Test Scenarios
+\- \[ ] QA Test Scenarios
 
-\* \[ ] Final Documentation
+\- \[ ] Final Documentation
 
 
 
@@ -285,6 +285,4 @@ Current Progress:
 
 
 QA Engineer | Test Automation Enthusiast | SQL Learning Project
-
-
 
